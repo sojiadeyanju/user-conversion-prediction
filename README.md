@@ -1,21 +1,3 @@
-This project builds a complete end-to-end Machine Learning pipeline using the UCI Online Retail II dataset.
-
-* We will answer three specific business questions and then trigger an action:
-* Who is likely to convert? (Classification Model)
-* When will they likely buy? (Regression Model)
-* Why are they converting? (SHAP Explainability)
-* Action: Automate email triggers based on these insights.
-
-**Project Architecture**
-* **Input:** Transactional data (InvoiceNo, StockCode, Quantity, Date, Price, CustomerID).
-* **Engineering:** Create a "Customer Snapshot" (RFM features: Recency, Frequency, Monetary).
-* **Models:**
-    * XGBClassifier: Predicts probability of purchase in next 30 days.
-    * XGBRegressor: Predicts estimated days until next purchase.
-* **Output:** An automated decision function that assigns marketing actions.
-
----
-
 # 🛍️ End-to-End Customer Conversion Prediction System
 
 This project is a full-stack Machine Learning application that predicts customer purchasing behavior using the **UCI Online Retail II dataset**. It identifies **who** is likely to convert, **when** they will buy next, and automatically recommends the **next best marketing action**.
