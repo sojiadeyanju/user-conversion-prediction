@@ -20,7 +20,7 @@ conversion-prediction/
 ├── test_api.py                 # Script to test the API (Local or Cloud)
 ├── Dockerfile                  # Instructions to build the container
 ├── .dockerignore               # Prevents large files from bloating the image
-├── user_conversion.ipynb       # Jupyter Noebook
+├── user_conversion.ipynb       # Jupyter Notebook
 ├── requirements.txt            # Python dependencies
 └── README.md                   # Project documentation
 
