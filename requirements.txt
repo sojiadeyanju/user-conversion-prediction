@@ -1,0 +1,6 @@
+# pip install -r requirements.txt
+Flask
+pandas
+scikit-learn
+xgboost==1.7.6
+joblib

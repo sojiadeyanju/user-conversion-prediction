@@ -1,0 +1,45 @@
+# --- Python & Environment ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Data (NEVER commit raw data) ---
+*.xlsx
+*.xls
+*.csv
+data/
+# specifically ignoring the UCI dataset
+online_retail_II.xlsx
+
+# --- Models (Generated Artifacts) ---
+# We ignore these because they are large binary files.
+# Users should run 'python train.py' to generate them fresh.
+*.joblib
+*.pkl
+models/
+
+# --- Environment Variables & Secrets ---
+.env
+.env.local
+.flaskenv
+
+# --- IDE & OS Settings ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Docker ---
+# We generally DO want to commit the Dockerfile, 
+# but we ignore local docker build contexts if any exist
+.dockerignore
+
+# --- Streamlit ---
+.streamlit/
